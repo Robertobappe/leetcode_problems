@@ -1,6 +1,7 @@
 def missingNumber(nums):
     tam = len(nums)
     nums = set(nums)
+    print(nums)
 
     for i in range(tam):
         if i not in nums:
