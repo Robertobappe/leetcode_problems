@@ -18,3 +18,4 @@ root2 = TreeNode(1, None, TreeNode(2))
 for i in [root1, root2]:
     s = Solution()
     print(s.maxDepth(i))
+
